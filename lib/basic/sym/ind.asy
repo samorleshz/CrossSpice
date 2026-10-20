@@ -1,0 +1,19 @@
+Version 4
+SymbolType CELL
+LINE Normal 16 16 16 24
+ARC Normal 6 24 26 40 16 40 16 24
+ARC Normal 6 40 26 56 16 56 16 40
+ARC Normal 6 56 26 72 16 72 16 56
+ARC Normal 6 72 26 88 16 88 16 72
+LINE Normal 16 88 16 96
+WINDOW 0 36 40 Left 2
+WINDOW 3 36 80 Left 2
+SYMATTR Value L
+SYMATTR Prefix L
+SYMATTR Description Inductor
+PIN 16 16 NONE 0
+PINATTR PinName A
+PINATTR SpiceOrder 1
+PIN 16 96 NONE 0
+PINATTR PinName B
+PINATTR SpiceOrder 2

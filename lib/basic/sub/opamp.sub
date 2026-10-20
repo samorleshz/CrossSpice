@@ -1,0 +1,9 @@
+* Amplificador operacional ideal de un polo (CrossSpice, librería básica).
+* Mismos nodos y parámetros que el símbolo OpAmps\opamp de LTspice:
+* invin noninvin out, Aol (ganancia en lazo abierto), GBW (ganancia-ancho de banda).
+.subckt opamp invin noninvin out Aol=100K GBW=10Meg
+G1 0 n1 noninvin invin 1m
+R1 n1 0 {Aol*1k}
+C1 n1 0 {Aol/(6.283185307*GBW*1k)}
+E1 out 0 n1 0 1
+.ends opamp

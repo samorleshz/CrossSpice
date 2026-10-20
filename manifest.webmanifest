@@ -1,0 +1,22 @@
+{
+  "name": "CrossSpice — simulador de circuitos",
+  "short_name": "CrossSpice",
+  "description": "Editor y simulador de circuitos compatible con LTspice, para tabletas y sin conexión.",
+  "lang": "es-CR",
+  "dir": "ltr",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0b3d91",
+  "theme_color": "#0b3d91",
+  "categories": ["education", "productivity"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "file_handlers": [
+    { "action": ".", "accept": { "text/plain": [".asc"] } }
+  ]
+}

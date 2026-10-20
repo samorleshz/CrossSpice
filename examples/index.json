@@ -1,0 +1,27 @@
+[
+ {
+  "file": "RC paso bajo.asc",
+  "title": "RC paso bajo (transitorio)",
+  "desc": "Pulso de 1 V en un RC de 1 ms (.tran)"
+ },
+ {
+  "file": "RC respuesta en frecuencia.asc",
+  "title": "RC paso bajo (respuesta en frecuencia)",
+  "desc": "Diagrama de Bode (.ac)"
+ },
+ {
+  "file": "Curva del diodo.asc",
+  "title": "Curva del diodo",
+  "desc": "Barrido de la fuente (.dc)"
+ },
+ {
+  "file": "Divisor de voltaje.asc",
+  "title": "Divisor de voltaje",
+  "desc": "Punto de operación (.op)"
+ },
+ {
+  "file": "Rectificador de media onda.asc",
+  "title": "Rectificador de media onda",
+  "desc": "Diodo y capacitor de filtro (.tran)"
+ }
+]

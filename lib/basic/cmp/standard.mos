@@ -1,0 +1,4 @@
+* MOSFET genéricos (CrossSpice, librería básica; valores aproximados).
+.model 2N7000 VDMOS(Rg=3 Vto=1.6 Rd=0 Rs=.75 Rb=.14 Kp=.17 mtriode=1.25 Cgdmax=80p Cgdmin=12p Cgs=50p Cjo=50p Is=4n)
+.model BS250 VDMOS(pchan Rg=3 Vto=-2.1 Rd=0 Rs=1 Rb=.2 Kp=.15 mtriode=1.2 Cgdmax=90p Cgdmin=15p Cgs=60p Cjo=60p Is=4n)
+.model IRF540 VDMOS(Rg=3 Vto=3.5 Rd=10m Rs=15m Rb=20m Kp=25 lambda=0.01 Cgdmax=1.4n Cgdmin=100p Cgs=1.6n Cjo=1n Is=40p)

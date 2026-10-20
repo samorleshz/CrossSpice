@@ -1,0 +1,19 @@
+[
+ "cmp/standard.bjt",
+ "cmp/standard.dio",
+ "cmp/standard.mos",
+ "sub/opamp.sub",
+ "sym/OpAmps/opamp.asy",
+ "sym/bv.asy",
+ "sym/cap.asy",
+ "sym/current.asy",
+ "sym/diode.asy",
+ "sym/ind.asy",
+ "sym/nmos.asy",
+ "sym/npn.asy",
+ "sym/pmos.asy",
+ "sym/pnp.asy",
+ "sym/res.asy",
+ "sym/voltage.asy",
+ "sym/zener.asy"
+]

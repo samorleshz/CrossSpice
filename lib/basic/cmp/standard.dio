@@ -1,0 +1,9 @@
+* Diodos genéricos (CrossSpice, librería básica; parámetros típicos publicados).
+.model 1N4148 D(Is=4.352n N=1.906 Rs=0.6458 Cjo=7.048p M=0.285 Vj=0.869 BV=100 IBV=100u TT=3.48n)
+.model 1N914 D(Is=4.352n N=1.906 Rs=0.6458 Cjo=7.048p M=0.285 Vj=0.869 BV=100 IBV=100u TT=3.48n)
+.model 1N4001 D(Is=14.11n N=1.984 Rs=33.89m Cjo=25.89p M=0.44 Vj=0.3245 BV=75 IBV=10u TT=5.7u)
+.model 1N4007 D(Is=14.11n N=1.984 Rs=33.89m Cjo=25.89p M=0.44 Vj=0.3245 BV=1000 IBV=5u TT=5.7u)
+.model 1N5819 D(Is=31.7u N=1.373 Rs=51m Cjo=110p M=0.35 Vj=0.35 BV=40 IBV=1m)
+.model 1N750 D(Is=880.5E-18 Rs=0.25 N=1 Cjo=175p M=0.5516 Vj=0.75 BV=4.7 IBV=20.245m)
+.model 1N4733 D(Is=1n Rs=1 N=1.2 Cjo=140p M=0.4 Vj=0.75 BV=5.1 IBV=49m)
+.model LED_ROJO D(Is=1e-19 N=1.8 Rs=2 Cjo=20p BV=5 IBV=10u)
