@@ -22,7 +22,7 @@ CORE = os.path.join(os.path.dirname(WEB), "crossspice")
 CORE_FILES = ["__init__.py", "config.py", "textio.py", "units.py", "symbols.py",
               "schematic.py", "models.py", "adevices.py", "netlist.py", "simulate.py"]
 SKIP_DIRS = {"__pycache__"}
-SKIP_FILES = {"build.py", "precache.json", "README.md", "make_basic.py"}
+SKIP_FILES = {"build.py", "precache.json", "README.md", "make_basic.py", ".nojekyll"}
 SKIP_PREFIX = ("vendor/pyodide/pyodide.mjs", "vendor/pyodide/LICENSE", "vendor/eecircuit/LICENSE")
 
 
@@ -32,6 +32,9 @@ def main():
     for f in CORE_FILES:
         shutil.copy2(os.path.join(CORE, f), os.path.join(dest, f))
     subprocess.run([sys.executable, os.path.join(WEB, "lib", "make_basic.py")], check=True)
+    # GitHub Pages (Jekyll) omite los archivos que empiezan con "_" como
+    # __init__.py; este archivo vacío le dice que publique todo tal cual.
+    open(os.path.join(WEB, ".nojekyll"), "w").close()
 
     files = []
     h = hashlib.sha256()

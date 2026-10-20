@@ -22,7 +22,9 @@ pruebas; la app no los usa).
    librería básica y escribe `precache.json` y la versión del service worker.
    **Correrlo cada vez que cambie el núcleo o algo de `web/`.**
 2. Subir la carpeta `web/` tal cual a cualquier hosting HTTPS (GitHub Pages,
-   el servidor del TEC…). Unos 35 MB; el service worker los guarda en la tableta
+   el servidor del TEC…), **incluido el archivo vacío `.nojekyll`**: sin él,
+   GitHub Pages omite `py/crossspice/__init__.py` y la app muestra
+   "Error al iniciar … (404)". Unos 35 MB; el service worker los guarda en la tableta
    la primera vez.
 3. En la tableta (Chrome para Android): abrir la dirección y "Instalar app" o
    "Agregar a la pantalla principal".
